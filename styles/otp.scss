@@ -1,0 +1,81 @@
+.otp-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fc;
+  
+    .otp-image {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .otp-header {
+      text-align: center;
+      margin-bottom: 20px;
+  
+      h2 {
+        font-size: 20px;
+        color: #003466;
+        margin-top: 20px;
+      }
+  
+      p {
+        font-size: 14px;
+        color: #555;
+        margin-top: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+      }
+    }
+  
+    .otp-input-container {
+      display: flex;
+      gap: 10px;
+      margin: 20px 0;
+  
+      input {
+        width: 60px;
+        height: 50px;
+        font-size: 22px;
+        text-align: center;
+        border: 2px solid #003466;
+        /* border-radius: 5px; */
+        outline: none;
+      }
+  
+      input:focus {
+        border-color: #007bff;
+      }
+    }
+  
+    .resend-link {
+      color: #003466;
+      font-size: 14px;
+      text-decoration: none;
+      cursor: pointer;
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  
+  .otpsuccess-header {
+    text-align: center;
+    margin-bottom: 20px;
+
+    h2 {
+      font-size: 20px;
+      color: #003466;
+      margin-top: 23px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #555;
+      margin-top: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+    }
+  }
